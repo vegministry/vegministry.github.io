@@ -1,3 +1,5 @@
+>> Construction page in master branch, main site in gh-pages branch
+
 # Animated Under Construction Template
 
 View the demo [here.](https://tmkamal.github.io/under-construction-template/)
