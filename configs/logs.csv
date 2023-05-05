@@ -1,0 +1,17 @@
+--2023-05-05 13:06:05--  https://docs.google.com/spreadsheets/d/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU/export?format=csv&gid=465016539
+Resolving docs.google.com (docs.google.com)... 172.253.115.102, 172.253.115.113, 172.253.115.138, ...
+Connecting to docs.google.com (docs.google.com)|172.253.115.102|:443... connected.
+HTTP request sent, awaiting response... 307 Temporary Redirect
+Location: https://doc-0g-cc-sheets.googleusercontent.com/export/n4743ueaoiib6is67cgugk097k/8fep79lvpiof48toir0rvv0e48/1683291965000/107572229116259807716/*/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU?format=csv&gid=465016539 [following]
+Warning: wildcards not supported in HTTP.
+--2023-05-05 13:06:06--  https://doc-0g-cc-sheets.googleusercontent.com/export/n4743ueaoiib6is67cgugk097k/8fep79lvpiof48toir0rvv0e48/1683291965000/107572229116259807716/*/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU?format=csv&gid=465016539
+Resolving doc-0g-cc-sheets.googleusercontent.com (doc-0g-cc-sheets.googleusercontent.com)... 172.253.62.132, 2607:f8b0:4004:c07::84
+Connecting to doc-0g-cc-sheets.googleusercontent.com (doc-0g-cc-sheets.googleusercontent.com)|172.253.62.132|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/csv]
+Saving to: ‘./sheets/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU465016539.csv’
+
+     0K                                                        5.47M=0s
+
+2023-05-05 13:06:06 (5.47 MB/s) - ‘./sheets/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU465016539.csv’ saved [428]
+

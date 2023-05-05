@@ -1,274 +1,1226 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- Bootstrap -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <!-- Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Material ui icons - google web fonts -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-10 main-title">
-          <h1>Website</h1>
-          <h2>under construction</h2>
+
+<head>
+    <meta charset="utf-8">
+    <title>Home - Victory Everlasting Gospel Ministry</title>
+    <meta name="description" content="Welcome to Victory Everlasting Gospel Ministry, an independent Seventh Day Adventist ministry based in Kenya. Our mission is to share the everlasting gospel of Jesus Christ and promote biblical truths through our various ministries and outreach programs. Our website is designed to help you learn more about our ministry, our beliefs, and our services. We offer resources such as sermons, Bible studies, and devotional materials to support your spiritual growth. We also provide information about our upcoming events and outreach programs so you can get involved and make a difference in your community. At Victory Everlasting Gospel Ministry, we are committed to helping people experience the love and grace of Jesus Christ and live a life of victory through Him. Join us in this journey and discover the joy of being part of God's family.">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Brian Onang'o">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="theme-color" content="#bc451d">
+
+    <!-- Favicon -->
+    <link href="/assets/img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="/assets/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="/assets/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    
+
+    <!-- Template Stylesheet -->
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.4/index.global.min.js'></script>
+    <!-- <script>
+
+        document.addEventListener('DOMContentLoaded', function() {
+          var calendarEl = document.getElementById('calendar');
+          var calendar = new FullCalendar.Calendar(calendarEl, {
+            initialView: 'dayGridMonth'
+          });
+          calendar.render();
+        });
+  
+    </script> -->
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 5rem; height: 5rem;" role="status">
+                <!-- <span class="sr-only">Loading...</span> -->
+            </div>
         </div>
-      </div>
-      <div class="row align-items-center">
-        <div class="col-sm-10 col-md-6 col-lg-6 svg-img p-5">
-          <svg
-            viewBox="0 0 834 690"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g id="undraw_dev_productivity_umsq 1" clip-path="url(#clip0)">
-              <g id="man">
-                <path
-                  id="Vector"
-                  d="M435.922 191.941C476.534 191.941 509.458 159.018 509.458 118.405C509.458 77.7923 476.534 44.869 435.922 44.869C395.309 44.869 362.385 77.7923 362.385 118.405C362.385 159.018 395.309 191.941 435.922 191.941Z"
-                  fill="#A0616A"
-                />
-                <path
-                  id="Vector_2"
-                  d="M381.036 155.173C381.036 155.173 394.891 259.616 373.576 271.339C352.261 283.062 500.399 284.128 500.399 284.128C500.399 284.128 467.361 193.54 482.281 165.831L381.036 155.173Z"
-                  fill="#A0616A"
-                />
-                <path
-                  id="Vector_3"
-                  d="M608.57 284.656L596.25 340.756L570.2 459.446L569.42 465.946L560.43 541.196L554.45 591.186L550.44 624.766C526.06 637.296 508.39 645.946 508.39 645.946C508.39 645.946 506.87 638.326 504.42 628.576C487.31 633.706 455.65 642.216 428.82 643.916C438.59 654.806 443.08 665.036 436.99 672.586C418.61 695.346 342.73 647.666 316.19 629.886C315.572 634.143 315.338 638.447 315.49 642.746L295.18 627.126L297.19 591.186L300.58 530.376L304.84 454.116C303.497 450.851 302.371 447.5 301.47 444.086C295.25 421.966 287.7 377.796 281.91 340.756C277.25 310.946 273.75 285.756 273.01 280.396C272.91 279.696 272.86 279.336 272.86 279.336L385.29 229.656C393.28 248.186 430.59 253.756 430.59 253.756C461.5 251.626 485.73 235.326 485.73 235.326L608.57 284.656Z"
-                  fill="#D0CDE1"
-                />
-                <path
-                  id="Vector_4"
-                  d="M374.746 48.8468L360.997 43.3423C360.997 43.3423 389.746 11.6915 429.744 14.4439L418.494 2.05865C418.494 2.05865 445.993 -8.95021 470.992 19.9482C484.134 35.1394 499.339 52.996 508.817 73.1112H523.542L517.396 86.643L538.906 100.175L516.828 97.7442C518.144 105.154 518.346 112.719 517.428 120.189C516.48 127.661 512.667 134.473 506.793 139.187C506.793 139.187 489.741 103.891 489.741 98.387V112.148C489.741 112.148 475.992 99.7631 475.992 91.5065L468.492 101.139L464.742 86.0019L418.494 101.139L425.994 88.7543L397.245 92.8826L408.495 77.7452C408.495 77.7452 375.997 95.6348 374.746 110.772C373.497 125.909 363.984 140.253 363.984 140.253C363.984 140.253 338.498 69.4885 374.746 48.8468Z"
-                  fill="#2F2E41"
-                />
-                <g id="rightHand">
-                  <path
-                    id="Vector_5"
-                    d="M516.92 624.636C516.92 624.636 512.16 626.266 504.42 628.576C487.31 633.706 455.65 642.216 428.82 643.916C405.72 645.396 386.2 641.836 382.63 626.766C381.1 620.286 383.27 614.956 388 610.576C402.12 597.486 439 592.796 468.25 591.186C476.51 590.736 484.15 590.526 490.51 590.446C501.31 590.306 508.39 590.526 508.39 590.526L508.56 591.186L516.92 624.636Z"
-                    fill="#A0616A"
-                  />
-                  <path
-                    id="Vector_6"
-                    d="M688.5 542.566C681.01 550.686 662.45 562.916 639.95 576.156C631.58 581.076 622.67 586.146 613.58 591.186C591.89 603.216 569.18 615.136 550.44 624.766C526.06 637.296 508.39 645.946 508.39 645.946C508.39 645.946 506.87 638.326 504.42 628.576C501.14 615.526 496.2 598.656 491.05 591.186C490.87 590.926 490.69 590.686 490.51 590.446C489.01 588.476 487.5 587.326 486.01 587.326L560.43 541.196L592.59 521.256L569.42 465.946L540.36 396.566L557.9 340.756L575.53 284.656H608.57C608.57 284.656 619.51 308.536 633.5 341.836C635.59 346.816 637.75 352.006 639.95 357.366C668.73 427.366 704.61 525.116 688.5 542.566Z"
-                    fill="#D0CDE1"
-                  />
-                </g>
-                <g id="leftHand">
-                  <path
-                    id="Vector_7"
-                    d="M436.99 672.586C418.61 695.346 342.73 647.666 316.19 629.886C310.41 626.016 306.97 623.566 306.97 623.566L331.25 591.186L338.94 580.936C338.94 580.936 345.82 584.586 355.99 590.526C356.36 590.746 356.73 590.966 357.11 591.186C365.88 596.336 376.89 603.066 388 610.576C403.33 620.946 418.83 632.776 428.82 643.916C438.59 654.806 443.08 665.036 436.99 672.586Z"
-                    fill="#A0616A"
-                  />
-                  <path
-                    id="Vector_8"
-                    d="M355.99 590.526C353.276 590.516 350.567 590.736 347.89 591.186C324.9 595.136 318.12 615.946 316.19 629.886C315.572 634.143 315.338 638.447 315.49 642.746L295.18 627.126L287.78 621.436C269.97 615.226 254.1 604.196 240.34 591.186C228.403 579.7 217.695 567.001 208.39 553.296C199.122 539.788 190.86 525.616 183.67 510.896C181.664 506.788 180.586 502.29 180.512 497.719C180.437 493.148 181.369 488.617 183.24 484.446L208.39 428.396L245.15 346.476C245.42 344.526 245.717 342.619 246.04 340.756C253.33 298.956 272.86 280.396 272.86 280.396H287.78L297.76 340.756L310.16 415.746L301.47 444.086L281.39 509.536L300.58 530.376L355.99 590.526Z"
-                    fill="#D0CDE1"
-                  />
-                </g>
-                <path
-                  id="Vector_9"
-                  d="M372.877 415.806L385.631 430.687C390.37 429.783 395.319 428.721 400.416 427.529L396.752 415.806L405.71 426.256C459.707 412.976 526.637 387.155 526.637 387.155C526.637 387.155 454.38 392.453 400.428 380.666C376.558 375.451 351.998 387.284 342.202 409.669C336.509 422.679 337.403 433.952 357.596 433.952C364.419 433.835 371.224 433.195 377.949 432.037L372.877 415.806Z"
-                  fill="#6C63FF"
-                />
-              </g>
-              <g id="allOther">
-                <path
-                  id="Vector_10"
-                  d="M663.65 660.386V666.456C663.654 668.122 663.345 669.774 662.74 671.326C662.472 672.018 662.147 672.687 661.77 673.326C660.579 675.327 658.887 676.983 656.863 678.133C654.838 679.283 652.549 679.887 650.22 679.886H203.67C201.342 679.887 199.053 679.283 197.028 678.133C195.003 676.983 193.312 675.327 192.12 673.326C191.743 672.687 191.419 672.018 191.15 671.326C190.546 669.774 190.237 668.122 190.24 666.456V660.386C190.24 658.622 190.587 656.876 191.262 655.246C191.936 653.616 192.926 652.136 194.173 650.889C195.42 649.641 196.901 648.652 198.53 647.977C200.16 647.303 201.907 646.956 203.67 646.956H229.41V644.126C229.41 644.053 229.425 643.98 229.453 643.912C229.481 643.844 229.522 643.782 229.574 643.73C229.626 643.678 229.688 643.637 229.756 643.608C229.824 643.58 229.897 643.566 229.97 643.566H243.4C243.474 643.566 243.547 643.58 243.615 643.608C243.683 643.637 243.745 643.678 243.797 643.73C243.849 643.782 243.89 643.844 243.918 643.912C243.946 643.98 243.96 644.053 243.96 644.126V646.956H252.35V644.126C252.35 644.053 252.365 643.98 252.393 643.912C252.421 643.844 252.462 643.782 252.514 643.73C252.566 643.678 252.628 643.637 252.696 643.608C252.764 643.58 252.837 643.566 252.91 643.566H266.34C266.414 643.566 266.487 643.58 266.555 643.608C266.623 643.637 266.684 643.678 266.736 643.73C266.789 643.782 266.83 643.844 266.858 643.912C266.886 643.98 266.9 644.053 266.9 644.126V646.956H275.3V644.126C275.3 644.053 275.315 643.98 275.343 643.912C275.371 643.844 275.412 643.782 275.464 643.73C275.516 643.678 275.578 643.637 275.646 643.608C275.714 643.58 275.787 643.566 275.86 643.566H289.29C289.364 643.566 289.437 643.58 289.505 643.608C289.573 643.637 289.634 643.678 289.687 643.73C289.739 643.782 289.78 643.844 289.808 643.912C289.836 643.98 289.85 644.053 289.85 644.126V646.956H298.24V644.126C298.24 644.053 298.255 643.98 298.283 643.912C298.311 643.844 298.352 643.782 298.404 643.73C298.456 643.678 298.518 643.637 298.586 643.608C298.654 643.58 298.727 643.566 298.8 643.566H312.23C312.304 643.566 312.377 643.58 312.445 643.608C312.513 643.637 312.574 643.678 312.626 643.73C312.679 643.782 312.72 643.844 312.748 643.912C312.776 643.98 312.79 644.053 312.79 644.126V646.956H321.18V644.126C321.18 644.053 321.195 643.98 321.223 643.912C321.251 643.844 321.292 643.782 321.344 643.73C321.396 643.678 321.458 643.637 321.526 643.608C321.594 643.58 321.667 643.566 321.74 643.566H335.17C335.244 643.566 335.317 643.58 335.385 643.608C335.453 643.637 335.514 643.678 335.566 643.73C335.619 643.782 335.66 643.844 335.688 643.912C335.716 643.98 335.73 644.053 335.73 644.126V646.956H344.13V644.126C344.13 644.053 344.145 643.98 344.173 643.912C344.201 643.844 344.242 643.782 344.294 643.73C344.346 643.678 344.408 643.637 344.476 643.608C344.544 643.58 344.617 643.566 344.69 643.566H358.12C358.194 643.566 358.267 643.58 358.335 643.608C358.403 643.637 358.464 643.678 358.516 643.73C358.569 643.782 358.61 643.844 358.638 643.912C358.666 643.98 358.68 644.053 358.68 644.126V646.956H367.07V644.126C367.07 644.053 367.085 643.98 367.113 643.912C367.141 643.844 367.182 643.782 367.234 643.73C367.286 643.678 367.348 643.637 367.416 643.608C367.484 643.58 367.557 643.566 367.63 643.566H472.83C472.904 643.566 472.977 643.58 473.045 643.608C473.113 643.637 473.174 643.678 473.227 643.73C473.279 643.782 473.32 643.844 473.348 643.912C473.376 643.98 473.39 644.053 473.39 644.126V646.956H481.79V644.126C481.79 644.053 481.805 643.98 481.833 643.912C481.861 643.844 481.902 643.782 481.954 643.73C482.006 643.678 482.068 643.637 482.136 643.608C482.204 643.58 482.277 643.566 482.35 643.566H495.78C495.928 643.568 496.07 643.627 496.175 643.732C496.279 643.836 496.339 643.978 496.34 644.126V646.956H504.73V644.126C504.73 644.053 504.745 643.98 504.773 643.912C504.801 643.844 504.842 643.782 504.894 643.73C504.946 643.678 505.008 643.637 505.076 643.608C505.144 643.58 505.217 643.566 505.29 643.566H518.72C518.794 643.566 518.867 643.58 518.935 643.608C519.003 643.637 519.065 643.678 519.117 643.73C519.169 643.782 519.21 643.844 519.238 643.912C519.266 643.98 519.28 644.053 519.28 644.126V646.956H527.67V644.126C527.67 644.053 527.685 643.98 527.713 643.912C527.741 643.844 527.782 643.782 527.834 643.73C527.886 643.678 527.948 643.637 528.016 643.608C528.084 643.58 528.157 643.566 528.23 643.566H541.66C541.734 643.566 541.807 643.58 541.875 643.608C541.943 643.637 542.005 643.678 542.057 643.73C542.109 643.782 542.15 643.844 542.178 643.912C542.206 643.98 542.22 644.053 542.22 644.126V646.956H550.62V644.126C550.62 644.053 550.635 643.98 550.663 643.912C550.691 643.844 550.732 643.782 550.784 643.73C550.836 643.678 550.898 643.637 550.966 643.608C551.034 643.58 551.107 643.566 551.18 643.566H564.61C564.757 643.568 564.898 643.628 565.001 643.733C565.104 643.838 565.161 643.979 565.16 644.126V646.956H573.56V644.126C573.56 644.053 573.575 643.98 573.603 643.912C573.631 643.844 573.672 643.782 573.724 643.73C573.776 643.678 573.838 643.637 573.906 643.608C573.974 643.58 574.047 643.566 574.12 643.566H587.55C587.624 643.566 587.697 643.58 587.765 643.608C587.833 643.637 587.895 643.678 587.947 643.73C587.999 643.782 588.04 643.844 588.068 643.912C588.096 643.98 588.111 644.053 588.11 644.126V646.956H596.5V644.126C596.5 644.053 596.515 643.98 596.543 643.912C596.571 643.844 596.612 643.782 596.664 643.73C596.716 643.678 596.778 643.637 596.846 643.608C596.914 643.58 596.987 643.566 597.06 643.566H610.49C610.564 643.566 610.637 643.58 610.705 643.608C610.773 643.637 610.835 643.678 610.887 643.73C610.939 643.782 610.98 643.844 611.008 643.912C611.036 643.98 611.051 644.053 611.05 644.126V646.956H650.22C651.984 646.956 653.731 647.303 655.36 647.977C656.99 648.652 658.471 649.641 659.718 650.889C660.965 652.136 661.954 653.616 662.629 655.246C663.304 656.876 663.651 658.622 663.65 660.386Z"
-                  fill="#3F3D56"
-                />
-                <path
-                  id="Vector_11"
-                  d="M833.5 671.326H60.5002V673.326H833.5V671.326Z"
-                  fill="#3F3D56"
-                />
-                <path
-                  id="Vector_12"
-                  d="M627.695 404.757H461.252V401.326H385.78V404.757H218.651C215.665 404.757 212.801 405.943 210.69 408.054C208.579 410.166 207.392 413.029 207.392 416.015V643.927C207.392 646.913 208.578 649.776 210.69 651.888C212.801 653.999 215.665 655.185 218.651 655.185H627.695C630.68 655.185 633.544 653.999 635.656 651.888C637.767 649.776 638.953 646.913 638.953 643.927V416.015C638.953 414.537 638.662 413.073 638.096 411.707C637.53 410.341 636.701 409.1 635.656 408.054C634.61 407.009 633.369 406.179 632.003 405.614C630.637 405.048 629.173 404.757 627.695 404.757Z"
-                  fill="#3F3D56"
-                />
-                <path
-                  id="Vector_13"
-                  d="M108.446 661.223H80.446V689.223H108.446V661.223Z"
-                  fill="#D0CDE1"
-                />
-                <path
-                  id="Vector_14"
-                  d="M91.45 639.223V673.223H125.45V639.223H91.45ZM123.97 671.743H92.92V640.703H123.97V671.743Z"
-                  fill="#3F3D56"
-                />
-                <path
-                  id="Vector_15"
-                  d="M756.446 661.223H728.446V689.223H756.446V661.223Z"
-                  fill="#D0CDE1"
-                />
-                <path
-                  id="Vector_16"
-                  d="M739.45 639.223V673.223H773.45V639.223H739.45ZM771.97 671.743H740.92V640.703H771.97V671.743Z"
-                  fill="#3F3D56"
-                />
-                <path
-                  id="Vector_17"
-                  d="M94.5801 230.113C138.399 230.113 173.921 194.591 173.921 150.773C173.921 106.954 138.399 71.4324 94.5801 71.4324C50.7616 71.4324 15.2396 106.954 15.2396 150.773C15.2396 194.591 50.7616 230.113 94.5801 230.113Z"
-                  fill="#6C63FF"
-                />
-                <path
-                  id="Vector_18"
-                  d="M122.229 56.49C115.045 55.5764 107.775 55.5764 100.591 56.49C84.5863 58.5914 69.5206 65.2399 57.1812 75.6466C44.8419 86.0533 35.747 99.7814 30.9756 115.202C28.8056 122.229 27.5767 129.514 27.3211 136.864C27.2851 137.886 27.261 138.92 27.261 139.954C27.2833 162.265 36.1561 183.655 51.9323 199.431C67.7084 215.208 89.0991 224.08 111.41 224.103C113.201 224.103 114.992 224.043 116.759 223.934C120.908 223.674 125.03 223.103 129.093 222.227C148.495 218.055 165.798 207.161 177.947 191.468C190.096 175.776 196.308 156.295 195.487 136.467C194.666 116.638 186.864 97.7381 173.459 83.104C160.054 68.4699 141.909 59.0436 122.229 56.49H122.229ZM137.748 217.347H137.736C130.959 219.659 123.905 221.062 116.759 221.518C114.992 221.638 113.201 221.698 111.41 221.698C89.7379 221.672 68.9613 213.051 53.6369 197.727C38.3126 182.402 29.6917 161.626 29.6652 139.954C29.6652 138.92 29.6892 137.886 29.7253 136.864C30.5517 115.744 39.5159 95.7617 54.7414 81.1009C69.9669 66.4401 90.2733 58.2371 111.41 58.209C130.776 58.2101 149.513 65.0866 164.283 77.6132C179.052 90.1399 188.895 107.503 192.057 126.61C195.22 145.716 191.496 165.325 181.55 181.942C171.604 198.559 156.082 211.106 137.748 217.347H137.748Z"
-                  fill="#3F3D56"
-                />
-                <path
-                  id="Vector_19"
-                  d="M112.612 63.0175H110.208V79.8473H112.612V63.0175Z"
-                  fill="#3F3D56"
-                />
-                <path
-                  id="Vector_20"
-                  d="M57.8578 84.7016L56.1577 86.4017L68.0582 98.3021L69.7582 96.6021L57.8578 84.7016Z"
-                  fill="#3F3D56"
-                />
-                <path
-                  id="Vector_21"
-                  d="M34.4738 138.752V141.156H51.3035V138.752H34.4738Z"
-                  fill="#3F3D56"
-                />
-                <path
-                  id="Vector_22"
-                  d="M56.1577 193.506L57.8578 195.206L69.7582 183.305L68.0582 181.605L56.1577 193.506Z"
-                  fill="#3F3D56"
-                />
-                <path
-                  id="Vector_23"
-                  d="M153.061 96.602L154.762 98.3021L166.662 86.4016L164.962 84.7016L153.061 96.602Z"
-                  fill="#3F3D56"
-                />
-                <path
-                  id="Vector_24"
-                  d="M171.516 138.752V141.156H188.346V138.752H171.516Z"
-                  fill="#3F3D56"
-                />
-                <path
-                  id="Vector_25"
-                  d="M154.762 181.605L153.061 183.305L164.962 195.206L166.662 193.506L154.762 181.605Z"
-                  fill="#3F3D56"
-                />
-                <path
-                  id="Vector_26"
-                  d="M112.612 200.06H110.208V216.89H112.612V200.06Z"
-                  fill="#3F3D56"
-                />
-                <path
-                  id="Vector_27"
-                  d="M122.229 35.3686H100.591V57.0069H122.229V35.3686Z"
-                  fill="#3F3D56"
-                />
-                <path
-                  id="Vector_28"
-                  d="M111.41 38.975C127.344 38.975 140.261 34.4002 140.261 28.7569C140.261 23.1136 127.344 18.5388 111.41 18.5388C95.4759 18.5388 82.5588 23.1136 82.5588 28.7569C82.5588 34.4002 95.4759 38.975 111.41 38.975Z"
-                  fill="#3F3D56"
-                />
-                <path
-                  id="Vector_29"
-                  d="M226 220.44H0V222.844H226V220.44Z"
-                  fill="#3F3D56"
-                />
-              </g>
-              <g id="clock">
-                <path
-                  id="Vector_30"
-                  d="M115.016 94.2729H107.803V135.145H115.016V94.2729Z"
-                  fill="#3F3D56"
-                />
-                <path
-                  id="Vector_31"
-                  d="M115.016 135.145C113.976 134.365 112.71 133.943 111.41 133.943C110.109 133.943 108.844 134.365 107.803 135.145C107.091 135.686 106.505 136.375 106.084 137.165C105.552 138.181 105.322 139.329 105.421 140.473C105.52 141.616 105.944 142.707 106.643 143.617C107.343 144.527 108.288 145.218 109.368 145.608C110.447 145.998 111.616 146.07 112.735 145.817C113.855 145.564 114.878 144.996 115.685 144.179C116.492 143.363 117.048 142.333 117.288 141.211C117.528 140.088 117.441 138.921 117.039 137.846C116.636 136.771 115.934 135.834 115.016 135.145H115.016ZM111.41 143.56C110.454 143.557 109.539 143.176 108.863 142.501C108.187 141.825 107.806 140.909 107.803 139.954C107.808 139.224 108.03 138.513 108.441 137.91C108.793 137.4 109.271 136.989 109.828 136.718C110.385 136.447 111.003 136.324 111.622 136.361C112.241 136.398 112.84 136.595 113.361 136.931C113.881 137.267 114.306 137.732 114.595 138.281C114.883 138.83 115.025 139.444 115.007 140.063C114.988 140.683 114.811 141.288 114.49 141.818C114.17 142.349 113.718 142.788 113.179 143.093C112.639 143.399 112.03 143.559 111.41 143.56V143.56Z"
-                  fill="#3F3D56"
-                />
-              </g>
-              <g id="leftTree">
-                <path
-                  id="Vector_32"
-                  d="M150.594 599.754C151.527 631.704 132.859 643.413 109.43 644.097C108.886 644.113 108.345 644.123 107.805 644.126C106.719 644.135 105.643 644.117 104.577 644.072C83.3891 643.193 66.6173 631.945 65.7495 602.232C64.8515 571.482 103.018 531.529 105.882 528.574L105.887 528.571C105.996 528.458 106.052 528.402 106.052 528.402C106.052 528.402 149.661 567.807 150.594 599.754Z"
-                  fill="#D0CDE1"
-                />
-                <path
-                  id="Vector_33"
-                  d="M107.744 639.255L122.626 617.124L107.774 641.636L107.805 644.126C106.719 644.135 105.643 644.117 104.577 644.072L105.316 612.06L105.295 611.813L105.323 611.766L105.393 608.741L89.0953 585.078L105.374 606.477L105.432 607.116L105.989 582.93L91.9123 558.397L106.029 578.681L105.882 528.574L105.882 528.407L105.887 528.571L106.822 568.062L119.651 552.021L106.864 571.464L107.144 593.098L118.949 571.984L107.187 596.279L107.343 608.309L124.512 578.897L107.395 612.505L107.744 639.255Z"
-                  fill="#3F3D56"
-                />
-              </g>
-              <g id="righTree">
-                <path
-                  id="Vector_34"
-                  d="M798.594 599.754C799.527 631.704 780.859 643.413 757.43 644.097C756.886 644.113 756.345 644.123 755.805 644.126C754.719 644.135 753.643 644.117 752.577 644.072C731.389 643.193 714.617 631.945 713.75 602.232C712.852 571.482 751.018 531.529 753.882 528.574L753.887 528.571C753.996 528.458 754.052 528.402 754.052 528.402C754.052 528.402 797.661 567.807 798.594 599.754Z"
-                  fill="#D0CDE1"
-                />
-                <path
-                  id="Vector_35"
-                  d="M755.744 639.255L770.626 617.124L755.774 641.636L755.805 644.126C754.719 644.135 753.643 644.117 752.577 644.072L753.316 612.06L753.295 611.813L753.323 611.766L753.393 608.741L737.095 585.078L753.374 606.477L753.432 607.116L753.989 582.93L739.912 558.397L754.029 578.681L753.882 528.574L753.882 528.407L753.887 528.571L754.822 568.062L767.651 552.021L754.864 571.464L755.144 593.098L766.949 571.984L755.187 596.279L755.343 608.309L772.512 578.897L755.395 612.505L755.744 639.255Z"
-                  fill="#3F3D56"
-                />
-              </g>
-              <g id="pc-circle">
-                <path
-                  id="Vector_36"
-                  d="M422.5 512.326C436.307 512.326 447.5 501.133 447.5 487.326C447.5 473.519 436.307 462.326 422.5 462.326C408.693 462.326 397.5 473.519 397.5 487.326C397.5 501.133 408.693 512.326 422.5 512.326Z"
-                  fill="#3F3D56"
-                />
-              </g>
-            </g>
-            <defs>
-              <clipPath id="clip0">
-                <rect width="833.5" height="689.223" fill="white" />
-              </clipPath>
-            </defs>
-          </svg>
+        <!-- Spinner End -->
+
+
+        
+        
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+           <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-2">
+    <a href="" class="navbar-brand p-0">
+        <!-- <h1 class="text-primary m-0"><i class="fa fa-church me-3"></i>Mar.Gregorios Church<h1> -->
+        <img src="/assets/img/logo/logo.l2.png" alt="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="fa fa-bars"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto py-0 pe-4">
+            
+            <a href="/index.html" class="nav-item nav-link active">Home</a>
+            
+            <!-- <div class="nav-item dropdown"> -->
+                <!-- <a href="/#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a> -->
+                <!-- <div class="dropdown-menu m-0">
+                    <a href="/booking.html" class="dropdown-item">Booking</a>
+                    <a href="/team.html" class="dropdown-item">Our Team</a>
+                    <a href="/testimonial.html" class="dropdown-item">Testimonial</a>
+                </div> -->
+            <!-- </div> -->
+            
+                
+                
+
+                <!-- <a href="/about.html" class="nav-item nav-link">about</a> -->
+                    
+                    <a href="/about.html" class="nav-item nav-link">about</a>
+                    
+                    <!-- 
+                        
+                            
+                                
+                                <a href="/about.htmlabout" class="nav-item nav-link">About</a>
+                                
+                            
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                     -->
+            
+                
+                
+
+                <!-- <a href="/sermons" class="nav-item nav-link">sermons</a> -->
+                    
+                    <a href="/sermons" class="nav-item nav-link">sermons</a>
+                    
+                    <!-- 
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                     -->
+            
+                
+                
+
+                <!-- <a href="/beliefs.html" class="nav-item nav-link">beliefs</a> -->
+                    
+                    <a href="/beliefs.html" class="nav-item nav-link">beliefs</a>
+                    
+                    <!-- 
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                     -->
+            
+                
+                
+
+                <!-- <a href="/categories.html" class="nav-item nav-link">articles</a> -->
+                    
+                    <a href="/categories.html" class="nav-item nav-link">articles</a>
+                    
+                    <!-- 
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                            
+                                
+                                <a href="/categories.htmlarticles" class="nav-item nav-link">Articles</a>
+                                
+                            
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                     -->
+            
+                
+                
+
+                <!-- <a href="/events.html" class="nav-item nav-link">events</a> -->
+                    
+                    <a href="/events.html" class="nav-item nav-link">events</a>
+                    
+                    <!-- 
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                     -->
+            
+                
+                
+
+                <!-- <a href="/contact.html" class="nav-item nav-link">contacts</a> -->
+                    
+                    <a href="/contact.html" class="nav-item nav-link">contacts</a>
+                    
+                    <!-- 
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                     -->
+            
         </div>
-      </div>
-     
+        <a href="tel:+254722329129" class="btn btn-primary py-2 px-4"><i class="fa fa-phone"></i> +254722329129</a>
     </div>
-      <footer class="footer">
-        <div class="container text-center">
-          <span>vegministry.org</span>
-        </div>
-      </footer>
+</nav>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+            <div class="container-xxl py-5 bg-dark hero-header mb-5">
+                <div class="container my-5 py-0 px-3">
+                    <div class="row align-items-center g-5">
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <h1 class="display-3 text-white animated slideInLeft">Victory Everlasting<br>Gospel Ministry</h1>
+                            <p class="text-white animated slideInLeft mb-4 pb-2">
+                            <br><span class="text-primary fw-bold">Location</span> Oyugis</p>
+                            <a href="/#index-about" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Read More</a>
+                        </div>
+                        <div class="col-lg-6 text-center text-lg-end overflow-hidden">
+                            <img id="right-image-animation" class="img-fluid" src="/assets/img/forward.png" alt="image">
+                        </div>
+                        <!-- <div class="container my-5 py-0 px-3" id="hero-header-2">
+                            <div class="row align-items-center g-5">
+                                <div class="col-lg-6 text-center text-lg-start">
+                                    <h1 class="display-3 text-white animated slideInLeft">Service Hours</h1>
+                                    <p class="text-white animated slideInLeft mb-4 pb-2"><span class="text-primary fw-bold">Day :</span> Sunday
+                                    <br><span class="text-primary fw-bold">Time :</span> 7:30AM - 11:30AM</p>-->
+                                    <!-- <a href="/#index-about" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Read More</a> -->
+                                <!-- </div> -->
+                            <!-- </div> -->
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+            <!-- Google Translate -->
+            <div id="google_translate_element"></div>
+            <script type="text/javascript">
+                function googleTranslateElementInit() {
+                new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+                }
+            </script>
+            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            <!-- Google Translate -->
+        </div>
+        <!-- Navbar & Hero End -->
+        
+        
+
+
+        <!-- Blog Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-4">
+            
+
+
+
+
+
+
+
+    <div class="col-lg-4 col-sm-4 wow fadeInUp" data-wow-delay="0.5s">
+        <div class="service-item rounded pt-3">
+            <div class="p-4">
+                <img class="flex-shrink-0 img-fluid px-1 py-1" src="/assets/img/biblestudy1.jpeg" alt="" style="width: 80px;">
+                <h5 class="text-primary">Welcome To Jekyll</h5>
+                <p class="text-justify text-dark">
+
+You’ll find this post in your \_posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.
+
+Jekyll requires blog post files to be named according to the following format:
+
+YEAR-MONTH-DAY-title.MARKUP
+
+Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and MARKUP is t...</p>
+                <a id="btn-center" class="btn-primary py-1 px-3 mb-5" href="/2023/05/05/welcome-to-jekyll.html" target="_blank" rel="noreferrer">Read more <i class="fa fa-arrow-right"></i> </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4 col-sm-4 wow fadeInUp" data-wow-delay="0.5s">
+        <div class="service-item rounded pt-3">
+            <div class="p-4">
+                <img class="flex-shrink-0 img-fluid px-1 py-1" src="/assets/img/biblestudy1.jpeg" alt="" style="width: 80px;">
+                <h5 class="text-primary">Renamed_post</h5>
+                <p class="text-justify text-dark">
+  
+    
+      Layout
+      Main
+       
+       
+    
+  
+  
+    
+      Author
+      Anon
+       
+       
+    
+    
+      navBar
+      navBarNoHero
+       
+       
+    
+  
+
+
+This is the third post that I want to put into the website. It has been renamed/moved.
+
+
+
+</p>
+                <a id="btn-center" class="btn-primary py-1 px-3 mb-5" href="/2023/05/05/renamed_post.html" target="_blank" rel="noreferrer">Read more <i class="fa fa-arrow-right"></i> </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4 col-sm-4 wow fadeInUp" data-wow-delay="0.5s">
+        <div class="service-item rounded pt-3">
+            <div class="p-4">
+                <img class="flex-shrink-0 img-fluid px-1 py-1" src="/assets/img/posts/2023-05-05-about-us/media/image1.jpg" alt="" style="width: 80px;">
+                <h5 class="text-primary">About</h5>
+                <p class="text-justify text-dark">Victory Everlasting Gospel Ministry (VEGM) is a Seventh-day Adventist ministry that was founded in 2010 in Kenya. Since its inception, VEGM has grown to become a prominent religious organization in the country, with a network of churches and other institutions.
+
+The primary objective of VEGM is to spread the Gospel of Jesus Christ and to provide spiritual guidance and support to individuals and communities. The ministry is founded on the belief that through faith, people can experience healin...</p>
+                <a id="btn-center" class="btn-primary py-1 px-3 mb-5" href="/2023/05/05/about-us.html" target="_blank" rel="noreferrer">Read more <i class="fa fa-arrow-right"></i> </a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+        </div>
+    </div>
+</div>
+<!-- Blog End -->
+
+
+<!-- About Start -->
+<div class="container-xxl py-5" id="index-about">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6">
+    <div class="row g-3">
+        <div class="col-6 text-start">
+            <img id="img-hover" class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s"
+                src="/assets/img/bible-1.jpg" />
+        </div>
+        <div class="col-6 text-start">
+            <img id="img-hover" class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s"
+                src="/assets/img/distribution.jpeg" style="margin-top: 25%;" />
+        </div>
+        <div class="col-6 text-end">
+            <img id="img-hover" class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s"
+                src="/assets/img/sanitarium.jpg" />
+        </div>
+        <div class="col-6 text-end">
+            <img id="img-hover" class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s"
+                src="/assets/img/ourgreenhouse.jpg" />
+        </div>
+    </div>
+</div>
+<div class="col-lg-6">
+    <h5 class="section-title ff-secondary text-start text-primary fw-normal">About Us</h5>
+    <h1 class="mb-4"><i class="fa fa-church text-primary me-2"></i> Welcome to Victory Everlasting Gospel Ministry</h1>
+        
+
+
+
+
+<p class="mb-4 text-justify"><p>Victory Everlasting Gospel Ministry (VEGM) is a Seventh-day Adventist ministry that was founded in 2010 in Kenya. Since its inception, VEGM has grown to become a prominent religious organization in the country, with a network of churches and other institutions.</p>
+
+<p>The primary objective of VEGM is to spread the Gospel of Jesus Christ and to provide spiritual guidance and support to individuals and communities. The ministry is founded on the belief that through faith, people can experience healing, deliverance, and transformation. As a result, VEGM places a great emphasis on prayer, Bible study, and evangelism.</p></p>
+
+
+    <div class="row g-4 mb-4">
+        <div class="col-sm-6">
+            <div class="d-flex align-items-center border-start border-5 border-primary px-3">
+                <div class="ps-4">
+                    <!-- <p class="mb-0">Years Since</p> -->
+                    <!--  -->
+                    
+
+
+
+                    <h6 class="mb-0">Years Since 2010</h6>
+                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">13</h1>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="col-sm-6">
+            <div class="d-flex align-items-center border-start border-5 border-primary px-3">
+                <div class="ps-4">
+                    <h6 class="mb-0">Families</h6>
+                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">240</h1>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <a class="btn btn-primary py-3 px-5 mt-2" href="/about.html">Read More</a>
+</div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+<!-- Video Start -->
+<div class="text-center container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+    <h5 class="section-title ff-secondary text-center text-primary fw-normal py-4"><span
+            class="fa fa-accessible-icon"></span> Click to play video</h5>
+    <div class="row g-0">
+        <div class="col-md-12">
+            <div class="video">
+                <button type="button" class="btn-play" data-bs-toggle="modal"
+                    data-src="https://www.youtube.com/embed/DoGsYhbj2Ak" data-bs-target="#videoModal">
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content rounded-0">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"><i class="fa fa-video me-3 text-danger"></i>Youtube Video
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-lg-1">
+                <!-- 16:9 aspect ratio -->
+                <div class="ratio ratio-16x9">
+                    <iframe class="embed-responsive-item" src="/" id="video" allowfullscreen
+                        allowscriptaccess="always" allow="autoplay"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Video Start -->
+
+<!-- Event Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h5 class="section-title ff-secondary text-center text-primary fw-normal">Calendar and Events</h5>
+            <h1 class="mb-5">Calendar</h1>
+        </div>
+        <br>
+
+        <!-- Calendar Start -->
+        <div id='calendar' class="row col-xl-auto mt-3"></div>
+        <br>
+        <!-- Calendar Ends -->
+
+        <br>
+        <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h5 class="section-title ff-secondary text-center text-primary fw-normal">Events</h5>
+            <h1 class="mb-5 mt-3">Events</h1>
+            <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+                <li class="nav-item">
+                    <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill"
+                        href="/#tab-1">
+                        <i class="fa fa-angle-left fa-2x text-primary"></i>
+                        <div class="ps-3">
+                            <small class="text-body">Upcoming</small>
+                            <h6 class="mt-n1 mb-0">Events</h6>
+                        </div>
+                    </a>
+                </li>
+                <br>
+                <li class="nav-item">
+                    <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill"
+                        href="/#tab-2">
+                        <i class="fa fa-book fa-2x text-primary"></i>
+                        <div class="ps-3">
+                            <small class="text-body">Past</small>
+                            <h6 class="mt-n1 mb-0">Events</h6>
+                        </div>&nbsp;&nbsp;&nbsp;
+                        <i class="fa fa-angle-right fa-2x text-primary"></i>
+                    </a>
+                </li>
+                <!-- <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="/#tab-3">
+                                
+                                <div class="ps-3">
+                                    <small class="text-body">Past</small>
+                                    <h6 class="mt-n1 mb-0">Events</h6>
+                                </div>&nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-angle-right fa-2x text-primary"></i>
+                            </a>
+                        </li> -->
+            </ul>
+            <div class="tab-content">
+                <div id="tab-1" class="tab-pane fade show p-0 active">
+                    <!-- <input type="text" id="text1"></input>
+                            <input type="button" id="button1" value="Add" onclick="add_element_to_array();"></input>
+                            <input type="button" id="button2" value="Display" onclick="display_array();"></input>
+                            <div class="py-4" id="Result"></div>  -->
+                    <div class="row g-4">
+                        <!-- 
+                        <div class="col-lg-6">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid rounded"
+                            src="/assets/img/1427965.png" alt="" style="width: 50px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                <span id="event-name">Baptism of Jesus</span>
+                                <span id="event-date" class="text-primary"><small>12 January</small></span>
+                            </h5>
+                            <small class="fst-italic">The baptism of Jesus by John the Baptist</small>
+                            </div>
+                        </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid rounded"
+                            src="/assets/img/1427965.png" alt="" style="width: 50px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                <span id="event-name">Holy Communion</span>
+                                <span id="event-date" class="text-primary"><small>13 December</small></span>
+                            </h5>
+                            <small class="fst-italic">Ordinance of foot washing and holy communion</small>
+                            </div>
+                        </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid rounded"
+                            src="/assets/img/1427965.png" alt="" style="width: 50px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                <span id="event-name">Another</span>
+                                <span id="event-date" class="text-primary"><small>Jul 6</small></span>
+                            </h5>
+                            <small class="fst-italic">Another event</small>
+                            </div>
+                        </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid rounded"
+                            src="/assets/img/1427965.png" alt="" style="width: 50px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                <span id="event-name">Older event</span>
+                                <span id="event-date" class="text-primary"><small>03/06/2021</small></span>
+                            </h5>
+                            <small class="fst-italic">2121 Event</small>
+                            </div>
+                        </div>
+                        </div>
+                         -->
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="/assets/img/1427965.png" alt="" style="width: 50px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span id="event-name">Holy Communion</span>
+                                        <span id="event-date" class="text-primary"><small>13 December</small></span>
+                                    </h5>
+                                    <small class="fst-italic">Ordinance of foot washing and holy communion</small>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="/assets/img/1427965.png" alt="" style="width: 50px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span id="event-name">Another</span>
+                                        <span id="event-date" class="text-primary"><small>Jul 6</small></span>
+                                    </h5>
+                                    <small class="fst-italic">Another event</small>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        
+                        
+
+                        
+                    </div>
+                </div>
+                <div id="tab-2" class="tab-pane fade show p-0">
+                    <div class="row g-4">
+                        <!-- <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="/assets/img/menu-1.jpg" alt="" style="width: 50px;"> -->
+                        <!-- <div class="w-100 d-flex flex-column text-justify">
+                            <article id="readings" class="container-fluid grid-box-sc py-3">
+                            </article>
+                        </div> -->
+                        
+                        
+                        
+                        
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="/assets/img/1427965.png" alt="" style="width: 50px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span id="event-name">Baptism of Jesus</span>
+                                        <span id="event-date" class="text-primary"><small>12 January</small></span>
+                                    </h5>
+                                    <small class="fst-italic">The baptism of Jesus by John the Baptist</small>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="/assets/img/1427965.png" alt="" style="width: 50px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span id="event-name">Older event</span>
+                                        <span id="event-date" class="text-primary"><small>03/06/2021</small></span>
+                                    </h5>
+                                    <small class="fst-italic">2121 Event</small>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                <!-- <div id="tab-3" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="/assets/img/menu-1.jpg" alt="" style="width: 65px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Programmes</span>
+                                                <span class="text-primary">01/01/2023</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="/assets/img/menu-2.jpg" alt="" style="width: 65px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Programmes</span>
+                                                <span class="text-primary">01/01/2023</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="/assets/img/menu-3.jpg" alt="" style="width: 65px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Programmes</span>
+                                                <span class="text-primary">01/01/2023</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="/assets/img/menu-4.jpg" alt="" style="width: 65px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Programmes</span>
+                                                <span class="text-primary">01/01/2023</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="/assets/img/menu-5.jpg" alt="" style="width: 65px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Programmes</span>
+                                                <span class="text-primary">01/01/2023</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="/assets/img/menu-6.jpg" alt="" style="width: 65px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Programmes</span>
+                                                <span class="text-primary">01/01/2023</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="/assets/img/menu-7.jpg" alt="" style="width: 65px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Programmes</span>
+                                                <span class="text-primary">01/01/2023</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="/assets/img/menu-8.jpg" alt="" style="width: 65px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Programmes</span>
+                                                <span class="text-primary">01/01/2023</span>
+                                            </h5>
+                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Event End -->
+
+<!-- Members Start -->
+<div class="container-xxl pt-5 pb-3">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h5 class="section-title ff-secondary text-center text-primary fw-normal">Workers</h5>
+            <h1 class="mb-5">Gospel Workers</h1>
+        </div>
+        <div class="row g-4">
+
+
+
+            
+            
+    
+    
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item text-center rounded overflow-hidden">
+                    <div class="rounded-circle overflow-hidden m-4">
+                        <img class="img-fluid" src="/assets/img/team/ben-1.png"
+                            alt="">
+                    </div>
+                    <h5 class="mb-0">Tom Mogambi Mose</h5>
+                    <small>Pastor </small>
+                    <div class="d-flex justify-content-center mt-3">
+                        
+                        <a class="btn btn-square btn-primary mx-1" href="https://www.facebook.com/tmmose"
+                            target="_blank"><i class="fab fa-facebook-f"></i></a>
+                         
+                        
+                        
+                        
+                        
+                        
+                        <a class="btn btn-square btn-primary mx-1" href=" mailto:mose@vegministry.org"><i
+                                class="fa fa-envelope"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            
+    
+    
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item text-center rounded overflow-hidden">
+                    <div class="rounded-circle overflow-hidden m-4">
+                        <img class="img-fluid" src="/assets/img/team/person-4.png"
+                            alt="">
+                    </div>
+                    <h5 class="mb-0">Bernard Odhiambo</h5>
+                    <small>Publishing </small>
+                    <div class="d-flex justify-content-center mt-3">
+                        
+                        <a class="btn btn-square btn-primary mx-1" href="https://www.facebook.com/100081544038951"
+                            target="_blank"><i class="fab fa-facebook-f"></i></a>
+                         
+                        
+                        
+                        
+                        
+                        
+                        <a class="btn btn-square btn-primary mx-1" href=" mailto:ben@vegministry.org"><i
+                                class="fa fa-envelope"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+            
+
+
+
+        </div>
+    </div>
+</div>
+<!-- Members End -->
+
+<!-- Verses Start -->
+        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="text-center">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Bible Verses</h5>
+                    <h1 class="mb-5">Verses for the day</h1>
+                </div>
+                <div class="owl-carousel testimonial-carousel">
+                 
+                    
+
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <h5 id="newQuote3" class="mb-1"><strong>John 3:16 </strong>- For God so loved the world, that He gave His only begotten Son, that whosoever believes in Him should not perish but have everlasting life</h5>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="/assets/img/806181.png" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <!-- <h5 class="mb-1">Chapter</h5> -->
+                                <small>Holy Bible</small>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <h5 id="newQuote3" class="mb-1"><strong>Genesis 1:1 </strong>- In the beginning God created the heaven and the earth</h5>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="/assets/img/806181.png" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <!-- <h5 class="mb-1">Chapter</h5> -->
+                                <small>Holy Bible</small>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <h5 id="newQuote3" class="mb-1"><strong>Exodus 20:1-2 </strong>- And God spake all these words saying, I am the Lord thy God which brought the out of the land of Egypt, out of the house of bondage</h5>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="/assets/img/806181.png" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <!-- <h5 class="mb-1">Chapter</h5> -->
+                                <small>Holy Bible</small>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="testimonial-item bg-transparent border rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <h5 id="newQuote3" class="mb-1"><strong>Exodus 20:3 </strong>- Thou shalt have no other gods before me</h5>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="/assets/img/806181.png" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <!-- <h5 class="mb-1">Chapter</h5> -->
+                                <small>Holy Bible</small>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Verses End -->
+
+<!-- Prayer Start -->
+<div class="col-md-12 bg-dark align-items-center">
+    <div class="p-5 wow fadeInUp" data-wow-delay="0.2s">
+        <h5 class="ff-secondary text-primary fw-normal text-center py-5">For Prayers</h5>
+        <!-- <h1 class="text-white mb-4">please fill the form</h1> -->
+        <form class="form-wrap" action="https://formsubmit.co/119e219f5eae2f87748e49c53fd7ea33" method="POST">
+            <input type="text" name="_honey" style="display:none">
+            <input type="hidden" name="_next" value="/form-submit.html">
+            <input type="hidden" name="_template" value="basic">
+            <!--<input type="hidden" name="_autoresponse" value="">-->
+            <input type="hidden" name="_subject" value="Prayer Request">
+            <input type="hidden" name="_cc" value="media@vegministry.org">
+            <input type="hidden" name="_captcha" value="false">
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Your Email"
+                            required>
+                        <label for="email">Your Email</label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-floating">
+                        <textarea type="text" class="form-control" placeholder="Special Request" id="message"
+                            name="message" style="height: 100px" required></textarea>
+                        <label for="message">Type your message..</label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <input id="submitForm" class="btn btn-primary w-100 py-3" type="submit"></input>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- Prayer End -->
+
+
+
+         <!-- Footer Start -->
+ <div class="container-fluid bg-dark text-light footer pt-5 mt-1 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Church</h4>
+
+                    
+                        
+                        <a class="btn btn-link" href="/index.html">home</a>
+                    
+                        
+                        <a class="btn btn-link" href="/about.html">about</a>
+                    
+                        
+                        <a class="btn btn-link" href="/sermons">sermons</a>
+                    
+                        
+                        <a class="btn btn-link" href="/beliefs.html">beliefs</a>
+                    
+                        
+                        <a class="btn btn-link" href="/categories.html">articles</a>
+                    
+                        
+                        <a class="btn btn-link" href="/events.html">events</a>
+                    
+                        
+                        <a class="btn btn-link" href="/contact.html">contacts</a>
+                    
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
+                <p class="mb-2 btn-link"><i class="fa fa-map-marker-alt me-3"></i><a class="text-light" href="https://www.google.com/maps?q=-0.537426,34.716525" target="_blank">Oyugis, Kobala</a></p>
+                <p class="mb-2 btn-link"><i class="fa fa-phone-square me-3"></i><a class="text-light" href="tel:+254722329129">+254722329129</a></p>
+                <p class="mb-2 btn-link"><i class="fa fa-envelope me-3"></i><a class="text-light" href="mailto:media@vegministry.org">media@vegministry.org</a></p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-outline-light btn-social text-primary" href="https://wa.me/+254706662011"><i class="fab fa-whatsapp"></i></a>
+                    <!-- <a class="btn btn-outline-light btn-social text-primary" href="https://www.facebook.com/groups/" target="_blank"><i class="fab fa-facebook-f"></i></a> -->
+                    <a class="btn btn-outline-light btn-social text-primary" href="https://www.youtube.com/VegMinistry " target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social text-primary" href="/" target="_blank"><i class="fab fa-internet-explorer"></i></a>
+                    <a class="btn btn-outline-light btn-social text-primary" href="https://drive.google.com/drive/folders/1Zu85ESbCijr_1CLAUQtKxKlvDkomlHAs" target="_blank"><i class="fab fa-google-drive"></i></a>
+                    <a class="btn btn-outline-light btn-social text-primary" href="https://github.com/vegministry/website-private" target="_blank"><i class="fab fa-github"></i></a>
+                    <a class="btn btn-outline-light btn-social text-primary" href="https://drive.google.com/drive/folders/1etlauxMxtezWcSW0MRqB2lxvpAXHM4V9" target="_blank"><i class="fab fa-google-drive"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Service</h4>
+                
+                <h5 class="text-light fw-normal"> Wednesday</h5>
+                <p><i class="fa fa-clock me-3"></i>1800 - 1900</p>
+                
+                <h5 class="text-light fw-normal"> Friday</h5>
+                <p><i class="fa fa-clock me-3"></i>1800 - 1900</p>
+                
+                <h5 class="text-light fw-normal"> Saturday</h5>
+                <p><i class="fa fa-clock me-3"></i>08:30AM - 05:00PM</p>
+                
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
+                <p>Subscribe to know the latest news.</p>
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <form name="submitSubscription" id="myform">
+                    <input id="subscriptionEmail" class="form-control border-primary w-100 py-3 ps-4 pe-5" name="email" type="text" placeholder="Your email" required>
+                    <input type="submit" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"></input>
+                    </form>
+                   
+                      
+                      <script>
+                        const scriptURL = 'https://script.google.com/macros/s/AKfycbxswcu9NsddApJHrx1riicLWv2UO7gTB-I4DbBv3N4mQoajQnpaG7seGGMQrJHBnLOo/exec'
+                        const form = document.forms['submitSubscription']
+                      
+                        form.addEventListener('submit', e => {
+                          e.preventDefault()
+                          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                            .then(response => {console.log('Success!', response);  document.getElementById('subscriptionEmail').value = '';})
+                            .catch(error => console.error('Error!', error.message))
+                        })
+                      </script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    Copyright © 
+                    
+                    
+                    2023 <a class="border-bottom" href="/#">Victory Everlasting Gospel Ministry</a>
+                    
+                    
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    <!-- Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a><br><br>
+                    Distributed By <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a> -->
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="footer-menu">
+                        
+                            
+                            <a href="/index.html">home</a>
+                        
+                            
+                            <a href="/about.html">about</a>
+                        
+                            
+                            <a href="/sermons">sermons</a>
+                        
+                            
+                            <a href="/beliefs.html">beliefs</a>
+                        
+                            
+                            <a href="/categories.html">articles</a>
+                        
+                            
+                            <a href="/events.html">events</a>
+                        
+                            
+                            <a href="/contact.html">contacts</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+
+        <!-- Back to Top -->
+        <a href="/#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i
+                class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/lib/wow/wow.min.js"></script>
+    <script src="/assets/lib/easing/easing.min.js"></script>
+    <script src="/assets/lib/waypoints/waypoints.min.js"></script>
+    <script src="/assets/lib/counterup/counterup.min.js"></script>
+    <script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="/assets/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="/assets/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="/assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/calendar.js"></script>
+    <!-- <script src="/assets/js/readings.js"></script> -->
+    <!-- <script src="/assets/js/visitors.js"></script> -->
+    <script>
+        $("#submitForm").click(function () {
+            alert("Connecting..");
+        });
+    </script>
+</body>
+
 </html>
