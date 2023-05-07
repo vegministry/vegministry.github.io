@@ -1,17 +1,17 @@
---2023-05-05 14:02:52--  https://docs.google.com/spreadsheets/d/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU/export?format=csv&gid=465016539
-Resolving docs.google.com (docs.google.com)... 172.253.115.139, 172.253.115.138, 172.253.115.113, ...
-Connecting to docs.google.com (docs.google.com)|172.253.115.139|:443... connected.
+--2023-05-07 10:39:27--  https://docs.google.com/spreadsheets/d/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU/export?format=csv&gid=465016539
+Resolving docs.google.com (docs.google.com)... 142.250.185.78, 2a00:1450:4001:80e::200e
+Connecting to docs.google.com (docs.google.com)|142.250.185.78|:443... connected.
 HTTP request sent, awaiting response... 307 Temporary Redirect
-Location: https://doc-0g-cc-sheets.googleusercontent.com/export/n4743ueaoiib6is67cgugk097k/4dp6nroajuf7063gh235cv2v28/1683295370000/107572229116259807716/*/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU?format=csv&gid=465016539 [following]
+Location: https://doc-0g-cc-sheets.googleusercontent.com/export/n4743ueaoiib6is67cgugk097k/94dqpe7a53sj1nvofp2v3bqr74/1683445165000/107572229116259807716/*/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU?format=csv&gid=465016539 [following]
 Warning: wildcards not supported in HTTP.
---2023-05-05 14:02:52--  https://doc-0g-cc-sheets.googleusercontent.com/export/n4743ueaoiib6is67cgugk097k/4dp6nroajuf7063gh235cv2v28/1683295370000/107572229116259807716/*/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU?format=csv&gid=465016539
-Resolving doc-0g-cc-sheets.googleusercontent.com (doc-0g-cc-sheets.googleusercontent.com)... 172.253.62.132, 2607:f8b0:4004:c07::84
-Connecting to doc-0g-cc-sheets.googleusercontent.com (doc-0g-cc-sheets.googleusercontent.com)|172.253.62.132|:443... connected.
+--2023-05-07 10:39:27--  https://doc-0g-cc-sheets.googleusercontent.com/export/n4743ueaoiib6is67cgugk097k/94dqpe7a53sj1nvofp2v3bqr74/1683445165000/107572229116259807716/*/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU?format=csv&gid=465016539
+Resolving doc-0g-cc-sheets.googleusercontent.com (doc-0g-cc-sheets.googleusercontent.com)... 142.250.186.97, 2a00:1450:4001:829::2001
+Connecting to doc-0g-cc-sheets.googleusercontent.com (doc-0g-cc-sheets.googleusercontent.com)|142.250.186.97|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: unspecified [text/csv]
 Saving to: ‘./sheets/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU465016539.csv’
 
-     0K                                                        7.75M=0s
+     0K                                                        8.61M=0s
 
-2023-05-05 14:02:52 (7.75 MB/s) - ‘./sheets/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU465016539.csv’ saved [428]
+2023-05-07 10:39:27 (8.61 MB/s) - ‘./sheets/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU465016539.csv’ saved [428]
 
