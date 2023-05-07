@@ -45,7 +45,7 @@ do
     CHILD_NAME=$(basename -- "${CHILD_DIR}")
     CHILD_LINK=$(realpath --relative-to="${JEKYLL_DIR}/${RELATIVE_PATH}" "${CHILD_DIR}")
     permalink=$(echo "$CHILD_DIR"| sed "s|$FILES_DIR|files|")
-    echo "| [$CHILD_NAME]({{site.baseurl}}$permalink/) |" >> "${INDEX_FILE}"
+    echo "| [$CHILD_NAME]({{site.baseurl}}$permalink) |" >> "${INDEX_FILE}"
   done
   echo "| |" >> "${INDEX_FILE}"
   echo "" >> "${INDEX_FILE}"
