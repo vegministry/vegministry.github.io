@@ -1,17 +1,17 @@
---2023-05-07 12:31:10--  https://docs.google.com/spreadsheets/d/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU/export?format=csv&gid=465016539
-Resolving docs.google.com (docs.google.com)... 173.194.213.138, 173.194.213.102, 173.194.213.101, ...
+--2023-05-07 12:36:31--  https://docs.google.com/spreadsheets/d/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU/export?format=csv&gid=465016539
+Resolving docs.google.com (docs.google.com)... 173.194.213.138, 173.194.213.101, 173.194.213.102, ...
 Connecting to docs.google.com (docs.google.com)|173.194.213.138|:443... connected.
 HTTP request sent, awaiting response... 307 Temporary Redirect
-Location: https://doc-0g-cc-sheets.googleusercontent.com/export/n4743ueaoiib6is67cgugk097k/145hd8qnu42l85l5v3acv1b7mo/1683462670000/107572229116259807716/*/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU?format=csv&gid=465016539 [following]
+Location: https://doc-0g-cc-sheets.googleusercontent.com/export/n4743ueaoiib6is67cgugk097k/0a62avpepc6ksi7cjqldo67epg/1683462990000/107572229116259807716/*/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU?format=csv&gid=465016539 [following]
 Warning: wildcards not supported in HTTP.
---2023-05-07 12:31:10--  https://doc-0g-cc-sheets.googleusercontent.com/export/n4743ueaoiib6is67cgugk097k/145hd8qnu42l85l5v3acv1b7mo/1683462670000/107572229116259807716/*/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU?format=csv&gid=465016539
+--2023-05-07 12:36:31--  https://doc-0g-cc-sheets.googleusercontent.com/export/n4743ueaoiib6is67cgugk097k/0a62avpepc6ksi7cjqldo67epg/1683462990000/107572229116259807716/*/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU?format=csv&gid=465016539
 Resolving doc-0g-cc-sheets.googleusercontent.com (doc-0g-cc-sheets.googleusercontent.com)... 74.125.134.132, 2607:f8b0:400c:c00::84
 Connecting to doc-0g-cc-sheets.googleusercontent.com (doc-0g-cc-sheets.googleusercontent.com)|74.125.134.132|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: unspecified [text/csv]
 Saving to: ‘./sheets/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU465016539.csv’
 
-     0K                                                        7.37M=0s
+     0K                                                        4.81M=0s
 
-2023-05-07 12:31:10 (7.37 MB/s) - ‘./sheets/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU465016539.csv’ saved [428]
+2023-05-07 12:36:31 (4.81 MB/s) - ‘./sheets/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU465016539.csv’ saved [428]
 
