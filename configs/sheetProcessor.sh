@@ -11,7 +11,7 @@ fi
 ## add blank line to the end of all files
 for file in ./sheets/*
 do
-  echo "" >> $file
+  echo "" >> "$file"
 done
 
 
