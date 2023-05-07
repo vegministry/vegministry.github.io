@@ -61,7 +61,7 @@ do
     PERMALINK=$(echo "$RELATIVE_PATH/$FILENAME" | sed 's|/|-|g;s|^-||')
     # echo "| $FILENAME | [Download](${FILES_DIR}/${RELATIVE_PATH}/${FILENAME}) |" >> "${INDEX_FILE}"
     tmp=$(echo "$RELATIVE_PATH/${FILENAME}" | sed 's/^\.\///')
-    echo "| $FILENAME | [Download]({{site.baseurl}}assets/files/${tmp}/${FILENAME}) |" >> "${INDEX_FILE}"
+    echo "| $FILENAME | [Download]({{site.baseurl}}assets/files/${tmp}) |" >> "${INDEX_FILE}"
   done
   echo "|||" >> "${INDEX_FILE}"
   echo "" >> "${INDEX_FILE}"
