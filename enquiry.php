@@ -69,7 +69,7 @@ if($_POST)
 		die($output);
 	}
 
-	$output = json_encode(array('type'=>'message', 'text' => 'Hello '.$name .', Thankyou for submitting your enquiry. We will contact you soon!'));
+	$output = json_encode(array('type'=>'message', 'text' => 'Hello '.$name .', Thank you for submitting your enquiry. We will contact you soon!'));
 	die($output);
 }
 ?>
