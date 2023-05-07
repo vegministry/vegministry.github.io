@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILES_DIR="/home/brian/Downloads"
+FILES_DIR="$1"
 JEKYLL_DIR="../_files"
 
 # Delete existing pages in _files directory
@@ -8,7 +8,7 @@ mkdir -p ${JEKYLL_DIR}
 rm -rf ${JEKYLL_DIR}/*
 
 mkdir -p ../assets/files/
-rsync -a $1/ ../assets/files/
+rsync -a $FILES_DIR/ ../assets/files/
 
 level=0;
 # Generate index files for all directories in files directory
