@@ -1,17 +1,17 @@
---2023-05-07 08:42:05--  https://docs.google.com/spreadsheets/d/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU/export?format=csv&gid=465016539
-Resolving docs.google.com (docs.google.com)... 108.177.126.139, 108.177.126.113, 108.177.126.138, ...
-Connecting to docs.google.com (docs.google.com)|108.177.126.139|:443... connected.
+--2023-05-07 09:01:30--  https://docs.google.com/spreadsheets/d/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU/export?format=csv&gid=465016539
+Resolving docs.google.com (docs.google.com)... 108.177.126.102, 108.177.126.101, 108.177.126.139, ...
+Connecting to docs.google.com (docs.google.com)|108.177.126.102|:443... connected.
 HTTP request sent, awaiting response... 307 Temporary Redirect
-Location: https://doc-0g-cc-sheets.googleusercontent.com/export/n4743ueaoiib6is67cgugk097k/7q2j4fu1c6ngbedmikgvc60328/1683448925000/107572229116259807716/*/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU?format=csv&gid=465016539 [following]
+Location: https://doc-0g-cc-sheets.googleusercontent.com/export/n4743ueaoiib6is67cgugk097k/n2ojmmdctvon5um74j3jur7pnk/1683450090000/107572229116259807716/*/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU?format=csv&gid=465016539 [following]
 Warning: wildcards not supported in HTTP.
---2023-05-07 08:42:05--  https://doc-0g-cc-sheets.googleusercontent.com/export/n4743ueaoiib6is67cgugk097k/7q2j4fu1c6ngbedmikgvc60328/1683448925000/107572229116259807716/*/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU?format=csv&gid=465016539
+--2023-05-07 09:01:31--  https://doc-0g-cc-sheets.googleusercontent.com/export/n4743ueaoiib6is67cgugk097k/n2ojmmdctvon5um74j3jur7pnk/1683450090000/107572229116259807716/*/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU?format=csv&gid=465016539
 Resolving doc-0g-cc-sheets.googleusercontent.com (doc-0g-cc-sheets.googleusercontent.com)... 74.125.143.132, 2a00:1450:4013:c03::84
 Connecting to doc-0g-cc-sheets.googleusercontent.com (doc-0g-cc-sheets.googleusercontent.com)|74.125.143.132|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: unspecified [text/csv]
 Saving to: ‘./sheets/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU465016539.csv’
 
-     0K                                                        7.39M=0s
+     0K                                                        9.07M=0s
 
-2023-05-07 08:42:05 (7.39 MB/s) - ‘./sheets/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU465016539.csv’ saved [428]
+2023-05-07 09:01:32 (9.07 MB/s) - ‘./sheets/1-otVkXNn6i4tWGki9grXzc4DjG6TdQ_XWTBbJttlESU465016539.csv’ saved [428]
 
